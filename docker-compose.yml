@@ -1,0 +1,14 @@
+version: "3.1"
+services:
+  texlive:
+    build: .
+    volumes:
+      - ./sample:/root/work
+    command: latexmk --pvc /root/work/sample.tex
+
+  nginx:
+    image: nontan18/stable-file-host
+    ports:
+      - "8080:80"
+    volumes:
+      - ./sample:/root/public

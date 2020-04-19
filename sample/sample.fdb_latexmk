@@ -1,0 +1,15 @@
+# Fdb version 3
+["dvipdf"] 0 "sample.dvi" "sample.pdf" "sample" 0
+  "sample.dvi" 0 -1 0 "latex"
+  (generated)
+  "sample.pdf"
+["latex"] 1587314870 "/root/work/sample.tex" "sample.dvi" "sample" 1587314870
+  "/root/work/sample.tex" 1587314852 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/euptex/uplatex.fmt" 1587313406 1167728 7025b84d49004ef839fb67f555463e16 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1587312052 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "sample.aux" 1587314870 8 a94a2480d3289e625eea47cd1b285758 ""
+  "sample.tex" 1587314852 0 d41d8cd98f00b204e9800998ecf8427e ""
+  (generated)
+  "sample.dvi"
+  "sample.log"
